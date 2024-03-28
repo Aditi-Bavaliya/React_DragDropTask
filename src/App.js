@@ -53,7 +53,7 @@ function App() {
             Task {taskId}
           </div>
         ))}
-      </div>;
+      </div>
       <div className="block" onDrop={(event) => handleDrop(event, 'today')} onDragOver={(event) => event.preventDefault()}>
         <h2>Today</h2>
         {blocks.today.map(taskId => (
